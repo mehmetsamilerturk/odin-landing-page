@@ -1,1 +1,1 @@
-Landing page for The Odin Project.
+**Landing page for The Odin Project.**
