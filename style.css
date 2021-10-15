@@ -25,6 +25,15 @@ button {
   font-size: 18px;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: #7393B3;
+}
+
+p {
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -39,7 +48,7 @@ button {
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
-  font-weight: 950;
+  font-weight: 800;
   margin-left: 150px;
 }
 
@@ -51,7 +60,7 @@ button {
   flex-direction: column;
   gap: 100px;
   margin: 0;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .main-text-image {
@@ -60,7 +69,7 @@ button {
 }
 
 .hero-main-text {
-  font-weight: 950;
+  font-weight: 800;
   font-size: 48px;
   color: #F9FAF8;
 }
@@ -100,7 +109,7 @@ button {
 
 .information-header {
   font-size: 36px;
-  font-weight: 950;
+  font-weight: 800;
   color: #1F2937;
   padding: 45px;
 }
@@ -111,20 +120,76 @@ button {
   justify-content: center;
   align-items: center;
   gap: 35px;
+  margin-bottom: 130px;
 }
 
 .quote {
-  background-color: green;
+  background-color: #E5E7EB;
+  color: #1F2937;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 300px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: 950;
+  font-size: 20px;
+}
+
+.call-to-action-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
 }
 
 .call-to-action {
-  background-color: red;
-  flex: 1;
+  border: none;
+  border-radius: 10px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  width: 900px;
+}
+
+.call-to-action-main-text {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.call-to-action button {
+  border: 2px solid #F9FAF8;
 }
 
 .footer {
   background-color: #1F2937;
+  color: #E5E7EB;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
 
 .card {
