@@ -12,6 +12,7 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 22px;
+  align-items: center;
 }
 
 button {
@@ -28,6 +29,7 @@ button {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-links, .hero-secondary-text {
@@ -49,6 +51,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  margin: 0;
 }
 
 .main-text-image {
